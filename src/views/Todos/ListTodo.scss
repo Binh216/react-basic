@@ -1,0 +1,19 @@
+.list-todo-container{
+    .add-todo{
+
+    }
+    .list-todo-contain{
+        width: 400px;
+        margin: 0 auto;
+        .todo-child{
+            margin: 10px;
+            height: 40px;
+            border-bottom: 1px solid gray;
+            &:first-child{
+                border-top: 1px solid gray;
+            }
+        }
+
+        
+    }
+}

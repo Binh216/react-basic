@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.scss';
 // import MyComponent from './Example/MyComponent';
 import ListTodo from './Todos/ListTodo';
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer,  } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 import Nav from './Nav/Nav';
@@ -13,7 +13,7 @@ import{
   BrowserRouter,
   Switch,
   Route,
-  Link
+  
 } from 'react-router-dom';
 
 function App() {

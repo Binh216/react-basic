@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
 // import MyComponent from './Example/MyComponent';
@@ -8,6 +9,8 @@ import 'react-toastify/dist/ReactToastify.css';
 import Nav from './Nav/Nav';
 import Home from './Example/Home';
 import About from './Example/About';
+import ListUsers from './Users/ListUsers';
+import DetailUser from './Users/DetailUser';
 
 import{
   BrowserRouter,
@@ -36,6 +39,12 @@ function App() {
             </Route>
             <Route path="/about">
               <About/>
+            </Route>
+            <Route path="/users" exact>
+              <ListUsers/>
+            </Route>
+            <Route path="/users/:id">
+              <DetailUser/>
             </Route>
           </Switch>
         </header>

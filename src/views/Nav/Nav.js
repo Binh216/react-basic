@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 
 class Nav extends React.Component {
+    
     render() {
         return (
             <div className="topnav">
@@ -19,6 +20,10 @@ class Nav extends React.Component {
                 </NavLink>
                 <NavLink to="/about" activeClassName="active">
                     About
+                </NavLink>
+
+                <NavLink to="/users" activeClassName="active">
+                    Users
                 </NavLink>
 
             </div>
